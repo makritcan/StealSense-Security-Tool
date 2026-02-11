@@ -1,43 +1,61 @@
 # StealSense Security Suite
 
-**StealSense**, modern tehditlere karşı geliştirilmiş, hafif ve modüler bir Siber Güvenlik ve Sistem Analiz aracıdır. C++ ve ImGui kullanılarak geliştirilmiştir.
+StealSense is a lightweight and modular Cybersecurity and System Analysis tool developed to combat modern threats. It is built using C++ and ImGui.
 
-![StealSense Dashboard Preview](https://via.placeholder.com/800x450.png?text=StealSense+Hacker+UI)
+StealSense Dashboard Preview:
+https://media.discordapp.net/attachments/1423764848109682790/1471112496780808212/image.png?ex=698dbfc7&is=698c6e47&hm=daa5501d7b678e71a7e3f16b5de5a99188ef72893d9bec48b385a7c0012ed630&=&format=webp&quality=lossless
 
-## Özellikler (Features)
+# FEATURES
 
-*   🛡️ **Security Monitor:** Dosya sistemi ve pano (clipboard) aktivitelerini gerçek zamanlı izler.
-*   🔍 **Advanced Debugger:** Çalışan süreçleri (process) listeler, analiz eder ve şüpheli işlemleri sonlandırır.
-*   🔒 **Code Protector:** C++ kaynak kodlarınızı XOR şifreleme ve Junk Code (Çöp Kod) ile korur.
-*   📦 **EXE Packer:** Derlenmiş uygulamalarınızı (EXE) basit bir stub içine paketleyerek analiz edilmesini zorlaştırır.
-*   🌐 **Port Scanner:** Ağ üzerindeki açık portları çoklu thread (multi-threaded) ile hızlıca tarar.
-*   💻 **Hacker UI:** Tamamen özelleştirilebilir, ImGui tabanlı modern ve karanlık tema.
+**Security Monitor**
+Monitors file system and clipboard activities in real time.
 
-## Kurulum ve Derleme
+**Advanced Debugger**
+Lists and analyzes running processes and allows termination of suspicious ones.
 
-Bu proje **Visual Studio 2022** ile geliştirilmiştir.
+**Code Protector**
+Protects your C++ source code using XOR encryption and junk code obfuscation.
 
-1.  Repoyu klonlayın:
-    ```bash
-    git clone https://github.com/makritcan/StealSense.git
-    ```
-2.  `stealsense.sln` dosyasını Visual Studio ile açın.
-3.  Projenin **Release (x64)** modunda olduğundan emin olun.
-4.  **Build Solution** (Ctrl+Shift+B) diyerek derleyin.
+**EXE Packer**
+Packages compiled applications (EXE) into a simple stub to make analysis more difficult.
 
-## Kullanılan Teknolojiler
+**Port Scanner**
+Quickly scans open ports on a network using multi-threading.
 
-*   **C++17/20:** Modern C++ standartları.
-*   **ImGui:** Hafif ve güçlü arayüz kütüphanesi.
-*   **DirectX 11:** Yüksek performanslı render motoru.
-*   **Windows API:** Sistem seviyesi erişim ve izleme.
-*   **Winsock:** Ağ taraması ve analizi.
+**Modern UI**
+Fully customizable, modern dark-themed interface built with ImGui.
 
-## Yasal Uyarı (Disclaimer)
+# INSTALLATION AND BUILD
 
-StealSense, **EĞİTİM AMAÇLI** geliştirilmiş bir güvenlik aracıdır. Bu yazılımın kötü amaçlı kullanımı (izinsiz veri toplama, sistemlere sızma vb.) kesinlikle yasaktır ve geliştiricinin sorumluluğunda değildir. Kullanıcılar, yerel yasalar çerçevesinde hareket etmekle yükümlüdür.
+**This project was developed using Visual Studio 2022.**
+
+**1. Open the stealsense.sln file in Visual Studio.**
+
+**2. Make sure the project is set to Release (x64) mode.**
+
+**3. Build the solution by selecting Build Solution (Ctrl+Shift+B).**
+
+# TECHNOLOGIES USED
+
+**C++17/20**
+Modern C++ standards.
+
+**ImGui**
+Lightweight and powerful GUI library.
+
+**DirectX 11**
+High-performance rendering engine.
+
+**Windows API**
+System-level access and monitoring.
+
+**Winsock**
+Network scanning and analysis.
+
+DISCLAIMER
+
+StealSense was developed strictly for **EDUCATIONAL PURPOSES.** Any malicious use of this software (such as unauthorized data collection or system intrusion) is strictly prohibited and is not the responsibility of the developer. Users are responsible for complying with their local laws and regulations.
 
 **For Educational Use Only.**
 
----
 Developed by **makrit** | 2026
